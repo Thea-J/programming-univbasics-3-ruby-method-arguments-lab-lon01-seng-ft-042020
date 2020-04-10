@@ -10,9 +10,11 @@ def introduction_with_language(name,language)
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
 
-
-def introduction_with_language_optional()
-
+#Define a method that takes 
+#2 parameter - 1 is optional
+#It prints a string 
+def introduction_with_language_optional(name,language=Ruby)
+  puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
 
 
