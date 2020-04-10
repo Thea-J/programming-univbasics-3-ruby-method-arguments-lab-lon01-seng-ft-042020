@@ -4,9 +4,10 @@ def introduction(name)
   puts "Hi, my name is #{name}."
 end
 
-#
+#Define a method that takes 
+#2 parameter & prints a string 
 def introduction_with_language(name,language)
-  puts ""
+  puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
 
 
